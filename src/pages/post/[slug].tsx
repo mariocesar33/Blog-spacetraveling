@@ -1,7 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 import Head from 'next/head';
-import Link from 'next/link';
 import { RichText } from 'prismic-dom';
 import { FiCalendar, FiUser, FiClock } from 'react-icons/fi';
 import Prismic from '@prismicio/client';
@@ -13,6 +12,8 @@ import { getPrismicClient } from '../../services/prismic';
 
 import commonStyles from '../../styles/common.module.scss';
 import styles from './post.module.scss';
+import { Preview } from '../../components/Preview';
+import Comments from '../../components/Comments/index';
 
 interface Post {
   first_publication_date: string | null;
@@ -105,13 +106,9 @@ export default function Post({ post, preview }: PostProps): JSX.Element {
           })}
         </div>
 
-        {preview && (
-          <aside>
-            <Link href="/api/exit-preview">
-              <a className={commonStyles.preview}>Sair do modo preview</a>
-            </Link>
-          </aside>
-        )}
+        <Comments />
+
+        {preview && <Preview />}
       </main>
     </>
   );

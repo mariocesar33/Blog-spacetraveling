@@ -7,3 +7,16 @@ The exit-preview.js -> https://prismic.io/docs/technologies/prismic-and-nextjs#t
 
 
 
+utterances -> https://utteranc.es/
+
+example for react use . Issue #161 . utterance/utterances -> https://github.com/utterance/utterances/issues/161
+
+
+
+<script src="https://utteranc.es/client.js"
+        repo="mariocesar33/Blog-spacetraveling"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
