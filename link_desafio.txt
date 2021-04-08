@@ -1,18 +1,9 @@
-Ignite Reactjs -> https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7S
+Ignite Reactjs -> https://www.notion.so/Desafio-02-Adicionando-features-ao-blog-d466866c02544c79bbada9717c033d0a
+
+
+The preview.js -> https://prismic.io/docs/technologies/prismic-and-nextjs#the-preview.js-file
+
+The exit-preview.js -> https://prismic.io/docs/technologies/prismic-and-nextjs#the-exitpreview.js-file
 
 
 
-Prismic w/ Prismic -> https://prismic.io/docs/technologies/javascript
-
-Next.js & Prismic -> https://prismic.io/docs/technologies/getting-started-nextjs
-
-Prismic Help Center -> https://intercom.help/prismicio/en/
-
-
-Usando Fetch -> https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch
-
-
-Modern javascript Date Utility Library -> https://date-fns.org/docs/Getting-Started
-
-
-Basic Features: Data Feching | Next.js -> https://nextjs.org/docs/basic-features/data-fetching#fallback-pages
