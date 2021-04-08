@@ -43,6 +43,7 @@
     margin-top: 2rem;
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 
 
     div{
@@ -55,6 +56,12 @@
         margin-right: 0.50rem;
       }
     }
+  }
+
+  > span {
+    display: block;
+    color: var(--info);
+    font-style: italic;
   }
 
   article {
